@@ -1,6 +1,39 @@
 # recipe-sharing-platform
 This is a recipe sharing platform where users can discover, share, and manage recipes.
-
+## Project Structure
+```
+.
+├── backend
+│   ├── app.py
+│   ├── config.py
+│   ├── models.py
+│   ├── requirements.txt
+│   ├── routes.py
+│   └── utils
+│       └── schema.sql
+└── frontend
+    ├── README.md
+    ├── package-lock.json
+    ├── package.json
+    ├── public
+    │   ├── favicon.ico
+    │   ├── index.html
+    │   ├── logo192.png
+    │   ├── logo512.png
+    │   ├── manifest.json
+    │   └── robots.txt
+    └── src
+        ├── App.js
+        ├── components
+        │   ├── Home.js
+        │   ├── Login.js
+        │   ├── RecipeForm.js
+        │   ├── RecipeList.js
+        │   ├── Register.js
+        │   └── UserContext.js
+        ├── index.css
+        └── index.js
+```
 ## Prerequisites
 
 Before running this project, ensure you have the following installed:
