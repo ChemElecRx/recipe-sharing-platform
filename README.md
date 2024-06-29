@@ -9,14 +9,18 @@ Before running this project, ensure you have the following installed:
 - Node.js (for npm)
 
 ## Getting Started
-
+### Initialize the database:
+Create a database named recipe_db (ensure MySQL is running):
+```
+CREATE DATABASE recipe_db;
+```
 ### Backend Setup
 
 1. Create a virtual environment:
    ```
    python -m venv env
    ```
-Activate the virtual environment:
+2. Activate the virtual environment:
 
 - On Windows:
 ```
@@ -26,28 +30,23 @@ env\Scripts\activate
 ```
 source env/bin/activate
 ```
-Install Python dependencies:
+3. Install Python dependencies:
 ```
 pip3 install -r requirements.txt
-```
-Initialize the database:
-Create a database named recipe_db (ensure MySQL is running):
-sql
-```
-CREATE DATABASE recipe_db;
-```
-Run the backend server:
-```
-python3 app.py
 ```
 Frontend Setup
 Install npm dependencies:
 ```
 npm install
 ```
+## Running the Application
 Start the frontend development server:
 ```
 npm start
+```
+Run the backend server:
+```
+python3 app.py
 ```
 Usage
 Access the frontend at http://localhost:3000 in your browser.
